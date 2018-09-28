@@ -12,7 +12,7 @@ namespace GestaoEquipamentos.Default.Forms
     [FormScript("Default.Acessorio")]
     [BasedOnRow(typeof(Entities.AcessorioRow), CheckNames = true)]
     public class AcessorioForm
-    {
+    {        
         public String Nome { get; set; }
     }
 }

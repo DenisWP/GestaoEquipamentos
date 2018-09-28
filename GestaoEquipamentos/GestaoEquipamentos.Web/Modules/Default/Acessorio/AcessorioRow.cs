@@ -15,19 +15,23 @@ namespace GestaoEquipamentos.Default.Entities
     [ModifyPermission("Administration:General")]
     public sealed class AcessorioRow : Row, IIdRow, INameRow
     {
+        #region Id
         [DisplayName("Id"), Identity]
         public Int32? Id
         {
             get { return Fields.Id[this]; }
             set { Fields.Id[this] = value; }
         }
+        #endregion
 
-        [DisplayName("Nome"), Size(255), QuickSearch]
+        #region Nome do Acessório
+        [DisplayName("Nome do Acessório"), Size(255), QuickSearch]
         public String Nome
         {
             get { return Fields.Nome[this]; }
             set { Fields.Nome[this] = value; }
         }
+        #endregion
 
         IIdField IIdRow.IdField
         {

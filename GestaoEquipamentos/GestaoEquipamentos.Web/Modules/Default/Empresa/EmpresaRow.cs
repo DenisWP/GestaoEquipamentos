@@ -22,14 +22,14 @@ namespace GestaoEquipamentos.Default.Entities
             set { Fields.Id[this] = value; }
         }
 
-        [DisplayName("Nome"), Size(255), QuickSearch]
+        [DisplayName("EMPRESA"), Size(255), QuickSearch]
         public String Nome
         {
             get { return Fields.Nome[this]; }
             set { Fields.Nome[this] = value; }
         }
 
-        [DisplayName("Cnpj"), Column("CNPJ"), Size(255)]
+        [DisplayName("CNPJ"), Column("CNPJ"), Size(255)]
         public String Cnpj
         {
             get { return Fields.Cnpj[this]; }
@@ -71,14 +71,14 @@ namespace GestaoEquipamentos.Default.Entities
             set { Fields.Cidade[this] = value; }
         }
 
-        [DisplayName("Cep"), Column("CEP"), Size(255)]
+        [DisplayName("CEP"), Column("CEP"), Size(255)]
         public String Cep
         {
             get { return Fields.Cep[this]; }
             set { Fields.Cep[this] = value; }
         }
 
-        [DisplayName("Uf"), Column("UF"), Size(255)]
+        [DisplayName("UF"), Column("UF"), Size(255)]
         public String Uf
         {
             get { return Fields.Uf[this]; }

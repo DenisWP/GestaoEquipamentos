@@ -15,16 +15,25 @@ namespace GestaoEquipamentos.Default.Columns
     {
         [EditLink, DisplayName("Db.Shared.RecordId"), AlignRight]
         public Int32 Id { get; set; }
-        [EditLink]
+        [EditLink, Width(200)]
         public String Nome { get; set; }
+        [Width(90)]
         public String Cnpj { get; set; }
+        [Width(200)]
         public String Longradouro { get; set; }
+        [Width(90)]
         public String Número { get; set; }
+        [Width(90)]
         public String Complemento { get; set; }
+        [Width(150)]
         public String Bairro { get; set; }
+        [Width(150)]
         public String Cidade { get; set; }
+        [Width(90)]
         public String Cep { get; set; }
+        [Width(50)]
         public String Uf { get; set; }
+        [Width(50)]
         public Boolean Ativa { get; set; }
     }
 }
