@@ -595,6 +595,7 @@
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
     <Content Include="wkhtmltopdf-license.txt" />
+    <Content Include="Migrations\DiagramaClasse\GestaoEquipamentos.asta" />
     <None Include="packages.config" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\build-config.js" />
@@ -1582,6 +1583,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\DefaultDB\DefaultDB_20180928_120000 .cs" />
     <Compile Include="Modules\Administration\AdministrationNavigation.cs" />
     <Compile Include="Modules\Administration\Language\LanguageLookup.cs" />
     <Compile Include="Modules\Administration\RolePermission\RolePermissionUpdateRequest.cs" />
